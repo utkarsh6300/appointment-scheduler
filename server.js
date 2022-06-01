@@ -3,7 +3,9 @@ const express=require('express');
 const connectDB=require('./config/db');
 
 const app=express();
+// var cors = require('cors')
 
+// app.use(cors()) 
 const userappointment= require('./api/userAppointment');
 // const showdetails=require('./api/detailsToShow');
 //connect database

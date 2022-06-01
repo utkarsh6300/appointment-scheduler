@@ -4,8 +4,10 @@
   "description": "schedule a meeting",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "server": "npx nodemon server.js",
+    "start": "node server.js",
+    "client": "npm start --prefix application-react",
+    "dev": "concurrently \"npm run server \" \"npm run client \""
   },
   "author": "utkarsh yadav",
   "license": "ISC",
@@ -17,6 +19,7 @@
     "mongoose": "^6.1.7"
   },
   "devDependencies": {
+    "concurrently": "^6.5.1",
     "nodemon": "^2.0.15"
   }
 }
