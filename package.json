@@ -1,0 +1,25 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "schedule a meeting",
+  "main": "server.js",
+  "scripts": {
+    "server": "npx nodemon server.js",
+    "start": "node server.js",
+    "client": "npm start --prefix application-react",
+    "dev": "concurrently \"npm run server \" \"npm run client \""
+  },
+  "author": "utkarsh yadav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "config": "^3.3.7",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "concurrently": "^6.5.1",
+    "nodemon": "^2.0.15"
+  }
+}

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  display: flex;
+  background-color: rgb(66, 87, 68);
+  align-items: center;
+   justify-content: center;
+   width: 80%;
+   /* height: 80vh; */
+   margin-left: 10%;
+   margin-top: 1%;
+   flex-direction: column;
+   border-radius: 8px;
+}
+.header{
+  margin-top: 5%;
+  background-color: rgb(68, 86, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2% 2.9%;
+    color: rgb(212, 208, 201);
+    box-shadow: 0 7px 14px rgb(87 117 103);
+    border-radius: 5px;
+}
+h1{
+  display: flex;
+  text-align: center;
+  
+}
+.add-form{
+  margin: 2%;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.add-form .form-control{
+  display: flex;
+  margin: 2%;
+  padding: 5%;
+}
+.add-form .form-control label{
+  display: flex;
+  margin-right: 6.4%;
+  padding: 3%;
+  font-size: larger;
+  font-weight: bold;
+}
+.add-form .form-control input{
+  display: flex;
+  border-radius: 3.3px;
+  border-style: none;
+  padding: 3.8%;
+  background-color: rgb(145, 170, 173);
+  text-size-adjust: initial;
+  font-size: medium;
+  font-weight: bold;
+}
+.add-form .form-control input:focus{
+
+  outline-style: none;
+
+  background-color: rgb(168, 173, 145);
+}
+.date input{
+   width: 23em;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button
+{
+  -webkit-appearance: none;
+}
+
+.btn{
+  margin: 3%;
+  padding: 4%;
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 6px;
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgb(53, 119, 163);
+  box-shadow: 0 4px 14px rgb(53 119 163);
+}
